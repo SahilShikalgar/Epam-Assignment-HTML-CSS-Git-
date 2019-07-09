@@ -1,0 +1,130 @@
+.head {
+    width: 100%;
+    background:#003366; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+}
+
+.body-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 80%;
+}
+
+.body-content > .news-element > img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.body-filter {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 20%;
+}
+
+body {
+    margin: 0px;
+}
+
+.head-title {
+    margin-left: 3rem;
+    display: inline-block;
+}
+
+.head-description {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.news-element{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.news-element-body > h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0.1em;
+    color: #003366; 
+}
+
+.news-element-body > p {
+    margin-block-start: 0.4em;
+    margin-block-end: .7em;
+}
+
+.news-element-body > h3, small, p, .news-element-button {
+    margin-left: 1rem;
+}
+
+.news-element-button {
+    border: 1px outset #ffffff;
+    color: #ffffff;
+    background-color: #FF7F50;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.news-element-button:hover {
+    background-color: #003366;
+}
+
+hr {
+    border-top: #d3d3d3;
+}
+
+.footer {
+    background: #003366;
+    color: #ffffff;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+}
+
+.footer > small:before {
+    content:"\00a9";
+}
+
+.news-element-last {
+    margin-bottom: 3rem;
+}
+
+#news-category {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
+    text-align-last: left;
+    padding-left: 20px;
+}
+
+#news-subcribe-email {
+    width: 91%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
+    text-align-last: left;
+    padding-left: 20px;
+}
+
+#news-subcribe-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.subscribe-elements {
+    display: flex;
+}
